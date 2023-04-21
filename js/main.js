@@ -51,6 +51,8 @@ function isPari(number) {
 
 let win = isPari(tot);
 
+// primo esercizio svolto
+
 
 
 
