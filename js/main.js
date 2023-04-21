@@ -18,7 +18,7 @@ let numeroCasuale;
 for (let i = 0; i <= 0 ; i++) {
     
     numeroCasuale = getRandomNumberInRange(1,5);
-    console.log("numero del pc", numeroCasuale);
+    console.log("Numero del pc", numeroCasuale);
     
 }
 // uso una funzione per far sommare i due numeri
@@ -40,9 +40,9 @@ function isPari(number) {
 
     if(number % 2 == 0) {
         risultato = true;
-        console.log("Ha vinto pari");
+        console.log("Ha vinto pari e tu hai scelto", sceltaUtente);
     } else{
-        console.log("Ha vinto dispari");
+        console.log("Ha vinto dispari e tu hai scelto", sceltaUtente);
     }
 
 
